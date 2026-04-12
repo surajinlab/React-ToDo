@@ -6,7 +6,9 @@ import React from 'react'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <h1>Now creating Todo List using React.</h1>
+    </div>
   )
 }
 
