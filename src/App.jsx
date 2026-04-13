@@ -1,16 +1,16 @@
-import { useState } from 'react'
+import { useState } from 'react';
+import Todo from './component/Todo';
 
-import './App.css'
+import "./App.css";
 
 import React from 'react'
 
 const App = () => {
   return (
-    <div>
-      <h1>Now creating Todo List using React.</h1>
-      <h3>Good Morning</h3>
-
-    </div>
+    <>
+      <h1>TODO Using REACT!</h1>
+      <Todo />
+    </>
   )
 }
 

@@ -1,0 +1,99 @@
+/* Google Font (Optional) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Background */
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #141e30, #243b55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Heading */
+h1 {
+  position: absolute;
+  top: 30px;
+  font-size: 2.5rem;
+  color: #ffffff;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  text-shadow: 0 0 15px rgba(0, 255, 255, 0.6);
+}
+
+/* Main Container */
+.main-div {
+  width: 400px;
+  min-height: 500px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 30px 20px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Inner Content */
+.child-div {
+  width: 100%;
+  text-align: center;
+}
+
+/* Image */
+figure img {
+  width: 120px;
+  height: auto;
+  margin-bottom: 15px;
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Floating animation */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+/* Caption */
+.caption {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+/* Add Items Box */
+.addItems {
+  background: rgba(0, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 12px;
+  margin-top: 10px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+/* Hover Effect */
+.addItems:hover {
+  background: rgba(0, 255, 255, 0.3);
+  transform: scale(1.05);
+}
+
+/* Text inside addItems */
+.addItems p {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
