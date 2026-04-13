@@ -7,13 +7,11 @@ import React from 'react'
 
 const App = () => {
   return (
-    <>
+    <> 
       <h1>TODO Using REACT!</h1>
       <Todo />
     </>
   )
 }
-
-
 
 export default App

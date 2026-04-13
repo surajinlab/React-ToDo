@@ -11,9 +11,8 @@ const Todo = () => {
                     <figcaption className='caption'>Add Your List Here!</figcaption>
                 </figure>
                 
-                <div className='addItems'>
-                    <p>Just Do it</p>
-                </div>
+                <inpu type="text" placeholder="" src='addItem' />
+                    
             </div>
         </div>
     </>
