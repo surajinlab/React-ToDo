@@ -10,9 +10,9 @@ const Todo = () => {
                     <img src="images/imgtodo.jpg" alt="todologo" />
                     <figcaption className='caption'>Add Your List Here!</figcaption>
                 </figure>
-                
-                <inpu type="text" placeholder="" src='addItem' />
-                    
+                <div>
+                    <input type="text" placeholder="Add item here..." className='form-control' />
+                </div>
             </div>
         </div>
     </>
